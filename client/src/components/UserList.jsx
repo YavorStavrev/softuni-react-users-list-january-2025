@@ -59,7 +59,12 @@ export default function UserList() {
                 />)
             }
 
-            {userIdInfo && <UserInfo userId={userIdInfo}/>};
+            {userIdInfo && (
+                <UserInfo 
+                userId={userIdInfo}
+                
+                />)
+            };
 
             {/* <!-- Table component --> */}
             <div className="table-wrapper">
