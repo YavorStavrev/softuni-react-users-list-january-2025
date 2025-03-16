@@ -9,9 +9,9 @@ function App() {
 
       <Header />
 
-      
+
       <main className="main">
-        
+
         <UserList />
 
         {/* <!-- User details component  --> */}
@@ -190,7 +190,7 @@ function App() {
     </div> */}
 
       </main>
-      
+
       <Footer />
     </>
   )
